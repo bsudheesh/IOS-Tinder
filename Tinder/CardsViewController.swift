@@ -36,16 +36,23 @@ class CardsViewController: UIViewController {
     }
     
     func didPan(sender: UIPanGestureRecognizer) {
+        var translation = sender.translation(in: view)
+
         
         if sender.state == .began {
             print("Gesture began")
         } else if sender.state == .changed {
+            userImageView.center.x = cardInitialCenter.x + translation.x
+            userImageView.center.y = cardInitialCenter.y + translation.y
             
+      
             
             
             
             print("Gesture is changing")
         } else if sender.state == .ended {
+            
+            
             
             
             
