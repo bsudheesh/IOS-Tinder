@@ -25,7 +25,7 @@ class ProfileViewController: UIViewController {
     
 
     @IBAction func headerButtonClick(_ sender: Any) {
-        
+         dismiss(animated: true, completion: nil)
     }
     /*
     // MARK: - Navigation
