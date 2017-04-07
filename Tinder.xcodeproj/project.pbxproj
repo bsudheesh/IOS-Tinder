@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE7FA7531E97292500AD5AB8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7FA7521E97292500AD5AB8 /* ProfileViewController.swift */; };
 		FED2F7B51E96F784008BBECF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2F7B41E96F784008BBECF /* AppDelegate.swift */; };
 		FED2F7BA1E96F784008BBECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FED2F7B81E96F784008BBECF /* Main.storyboard */; };
 		FED2F7BC1E96F784008BBECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED2F7BB1E96F784008BBECF /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE7FA7521E97292500AD5AB8 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		FED2F7B11E96F784008BBECF /* Tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FED2F7B41E96F784008BBECF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FED2F7B91E96F784008BBECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				FED2F7C71E96F854008BBECF /* CardsViewController.swift */,
+				FE7FA7521E97292500AD5AB8 /* ProfileViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE7FA7531E97292500AD5AB8 /* ProfileViewController.swift in Sources */,
 				FED2F7C81E96F854008BBECF /* CardsViewController.swift in Sources */,
 				FED2F7B51E96F784008BBECF /* AppDelegate.swift in Sources */,
 			);
@@ -307,6 +311,7 @@
 				FED2F7C51E96F784008BBECF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
